@@ -1,0 +1,46 @@
+section {
+  display: flex;
+  height: 100%;
+  aside,
+  div :not(.row) {
+    border: 2px solid #fff;
+  }
+
+  .left-side {
+  }
+  & > aside {
+    flex: 1;
+    flex: 10%;
+    flex-direction: column;
+    display: flex;
+    padding: 30px;
+  }
+  main {
+    flex: 7;
+    margin-top: 27px;
+    margin-left: 22px;
+    .content {
+      height: 90%;
+      .row-1 {
+        border: none;
+        display: flex;
+        height: 50%;
+        .none {
+          height: 100%;
+        }
+      }
+      .row-2 {
+        border: none;
+        display: flex;
+        margin-left: 0;
+        height: 50%;
+      }
+      .none {
+        border: none;
+        width: 50%;
+      }
+    }
+  }
+  .right-side {
+  }
+}
